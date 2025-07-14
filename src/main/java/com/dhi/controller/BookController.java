@@ -34,7 +34,7 @@ public class BookController {
 		book.setRecStatus("Y");
 		boolean b=bService.saveBook(book);
 		if(b) {
-			mv.addObject("sucsMsg","Book Saved Successfully");
+			mv.addObject("sucsMsg","Your Book Saved Successfully");
 		}
 		else {
 		mv.addObject("errMsg","problem occurs");
